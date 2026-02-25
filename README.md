@@ -67,4 +67,4 @@ A live demo is available (GitHub Pages):
 👉 https://cfy98.github.io/Code-Nation-Mini-Brief/
 
 ## License:
-This project was made with the **MIT LICENSE**
+This project was made with the **MIT LICENSE**.
