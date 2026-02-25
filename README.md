@@ -5,7 +5,7 @@ It showcases a fictional coding education service called CodeClub, with promotio
 
 The repository contains HTML and CSS files that make up a non-functional demo of a landing page.
 
-## 📌 📄 Website Overview
+## 📌 Website Overview
 
 This project builds a basic web presence for CodeClub — a fictional coding course provider focused on helping beginners start a career in tech.
 
@@ -65,3 +65,6 @@ This mini-brief project was intended to:
 A live demo is available (GitHub Pages):
 
 👉 https://cfy98.github.io/Code-Nation-Mini-Brief/
+
+## License:
+This project was made with the **MIT LICENSE**
