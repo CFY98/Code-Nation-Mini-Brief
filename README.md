@@ -12,13 +12,9 @@ This project builds a basic web presence for CodeClub — a fictional coding cou
 ## 🎯 Key Sections
 
 - Hero / Welcome — Title and introductory header.
-
 - What We Teach — Highlights HTML, CSS, and JavaScript courses.
-
 - Remote Learning Info — Emphasises that courses are online and flexible.
-
 - Reviews / Testimonials — Shows two learner quotes (as visuals).
-
 - Social Links — Non-functional placeholders for Facebook, Twitter, Instagram.
 
 ## 🛠️ Technologies Used
