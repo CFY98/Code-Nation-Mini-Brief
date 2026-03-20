@@ -1,0 +1,246 @@
+/* * { */
+    /* outline: 1px solid red; }*/
+
+body {
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f5b32f;
+    /* margin: -10px; */
+    padding: 15px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+/* list-style-type can be used to remove bullet points from lists */
+/* #nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+/* float aligns the items in a list float beside each other on the left */
+/* #nav ul li{
+    float: left;
+}
+#nav ul li::after{
+    content: "|";
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+/* last-child defines last element among a group of sibling elements within its parent container */
+/* #nav ul li:last-child:after {
+    content: none;
+} */
+/* #nav li a{
+    padding: 10px;
+    color: #1c1c1c;
+    text-decoration: none;
+} */
+/* #nav li a:hover {
+    color: rgb(224, 95, 121);
+} */ 
+#nav a{
+    color: #1c1c1c;
+    text-decoration: none;
+}
+/* Alternate way of adding a border is by adding it to where you have placed float via border-right. If using a list however. */
+#nav a::after{
+    content: "|";
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#nav a:last-child::after{
+    content: none;
+}
+#nav a:hover{
+    color: rgb(224, 95, 121);
+}
+h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #f5b32f;
+    font-size: 85px;
+}
+/* AUTO allows the value of defined property to be adjusted automatically. In this case, margin here will have the left and right margins increased until it becomes centered along the y-axis of the viewport*/
+div.laptop img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    box-sizing: border-box;
+}
+div.information {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 39px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2.subtitles {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #f5b32f;
+    font-size: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div.courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.logos {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+div.logos img {
+    max-width: 33%;
+}
+div#man {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /* border: orange 2px solid; */
+    box-sizing: border-box;
+}
+div.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: yellow solid 2px; */
+}
+div.review img {
+    max-width: 50%;
+    /* border: pink solid 2px; */
+}
+div.review q {
+    align-items: center;
+    text-align: center;
+    /* border: red solid 2px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #FFFFFF;
+    font-size: 37px;
+    padding-left: 35px;
+}
+div#woman {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    /* margin-bottom: 100px; */
+    /* border: rgb(160, 0, 160) 2px solid; */
+    box-sizing: border-box;
+}
+div.comment {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* border: pink 2px solid; */
+}
+div.comment img {
+    max-width: 50%;
+    /* border: rgb(137, 89, 137) 2px solid; */
+}
+div.comment q {
+    align-items: center;
+    text-align: center;
+    /* border: blue solid 2px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #FFFFFF;   
+    font-size: 37px;
+    padding-right: 35px;
+}
+#socials {
+    display: flex;
+    justify-content: center;
+    background-color: #f5b32f;
+    /* margin: -10px; */
+    padding: 15px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+#socials a{
+    color: #1c1c1c;
+    text-decoration: none;
+}
+/* Alternate way of adding a border is by adding it to where you have placed float via border-right. */
+#socials a::after{
+    content: "|";
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#socials a:last-child::after{
+    content: none;
+}
+#socials a:hover{
+    color: rgb(224, 95, 121);
+}
+@media only screen and (max-width: 600px) {
+    #nav {
+        font-size: 17px;
+        padding: 10px;
+    }
+    #nav a::after{
+        content: "|";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h1 {
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    div.information {
+        font-size: 11.75px;
+        font-weight: 200;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h2.subtitles {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    div.laptop img {
+        max-width: 70%;
+    }
+    div.logos img {
+        max-width: 30%;
+    }
+    div#man {
+        padding: 20px;
+        margin-bottom: -15px;
+        margin-top: -15px;
+    }
+    div.review q {
+        font-size: 11.5px;
+        padding-left: 15px;
+    }
+    div#woman {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    div.comment q {
+        font-size: 11.5px;
+        padding-right: 20px;
+    }
+    #socials {
+        font-size: 17px;
+        padding: 10px;
+    }
+    #socials a::after {
+        content: "|";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
